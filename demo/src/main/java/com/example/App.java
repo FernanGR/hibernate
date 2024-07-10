@@ -19,6 +19,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
+        setupHibernate();
     }
 
     public static void setupHibernate(){
@@ -46,4 +47,6 @@ public class App
         session.close();
 
     }
+
+
 }
